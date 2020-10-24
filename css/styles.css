@@ -6,7 +6,19 @@
 }
 body {
     text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, rgb(190, 74, 53) 0%, rgb(42, 42, 42) 100%);
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 16px;
+    background: linear-gradient(to left, #2f2f2f 0%,rgb(160, 0, 0) 100%);
+}
+.contenedor {
+    margin: 1em auto;
+    border: 2px solid #000000;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 1em;
+}
+.contenedor h1 {
+    font-size: 2rem;
 }
