@@ -16,8 +16,26 @@ body {
     border: 2px solid #000000;
     max-width: 800px;
     background-color: #ffffff;
-    padding: 1em;
 }
 .contenedor h1 {
     font-size: 2rem;
+}
+#cabecera{
+    margin: 0;
+    background-color: #0076e4;
+    font-size: 2em;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3px 3px #000000;
+    box-shadow: 0px 1px 16px 2px #5a5a5a;
+}
+#cabecera #tagline {
+    margin-left: 1em;
+    font-size: .7em;
+    text-shadow: none;
+    font-weight: normal;
+}
+#post {
+    padding: 1em;
 }
